@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "svg-builder": "0.0.4",
+        "lodash": "3.10.0"
+    }
+}
