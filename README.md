@@ -4,7 +4,7 @@ Easy to use Node.JS/Browserify library to render time graph into SVG.
 
 #### Example
 
-<img src="https://raw.github.com/SamyPesse/svg-timegraph/master/example.svg" alt="Example SVG">
+<img src="https://rawgit.com/SamyPesse/svg-timegraph/master/example.svg" alt="Example SVG">
 
 #### How to use it?
 
