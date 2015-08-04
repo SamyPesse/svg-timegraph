@@ -1,6 +1,6 @@
 {
     "name": "svg-timegraph",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "lib/index.js",
     "author": "Samy Pessé <samypesse@gmail.com>",
     "description": "Library to generate SVG time graph",
