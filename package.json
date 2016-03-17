@@ -1,21 +1,34 @@
 {
-    "name": "svg-timegraph",
-    "version": "1.0.1",
-    "main": "lib/index.js",
-    "author": "Samy Pessé <samypesse@gmail.com>",
-    "description": "Library to generate SVG time graph",
-    "bugs": "https://github.com/SamyPesse/svg-timegraph/issues",
-    "license": "Apache-2.0",
-    "engines": {
-        "node": ">=0.6"
+  "name": "svg-timegraph",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "author": "Samy Pessé <samypesse@gmail.com>",
+  "description": "Library to generate SVG time graph",
+  "bugs": "https://github.com/SamyPesse/svg-timegraph/issues",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "svg-builder": "0.0.4",
+    "lodash": "3.10.0",
+    "moment": "2.10.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamyPesse/svg-timegraph.git"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  },
+  "contributors": [
+    {
+      "name": "Aaron O'Mullan",
+      "email": "aaron@gitbook.com"
     },
-    "dependencies": {
-        "svg-builder": "0.0.4",
-        "lodash": "3.10.0",
-        "moment": "2.10.6"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/SamyPesse/svg-timegraph.git"
+    {
+      "name": "Johan Preynat",
+      "email": "johan.preynat@gmail.com"
     }
+  ]
 }
