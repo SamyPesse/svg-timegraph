@@ -20,5 +20,15 @@
   },
   "devDependencies": {
     "eslint": "^2.4.0"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Aaron O'Mullan",
+      "email": "aaron@gitbook.com"
+    },
+    {
+      "name": "Johan Preynat",
+      "email": "johan.preynat@gmail.com"
+    }
+  ]
 }
