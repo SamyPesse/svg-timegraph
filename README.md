@@ -112,6 +112,15 @@ var output = SVGTimeGraph(
         // Points that are not in the interval will be ignored
         autoFillInterval: 1000 * 60 * 60 * 24,
 
+        // By default, autoFill completes the serie from the minimum date
+        // to the maximum date of the series
+        // Override this behavior by setting the two following options
+
+        // Default to minimum date of the series
+        autoFillStartTime: new Date(2015, 06, 07),
+        // Default to maximum date of the series
+        autoFillEndTime: new Date(2015, 06, 14)
+
         // Other options...
     }
 );
