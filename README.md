@@ -70,3 +70,49 @@ var output = SVGTimeGraph(
     }
 );
 ```
+
+Use the `autoFill` option when a time serie is incomplete:
+
+```js
+var SVGTimeGraph = require('svg-timegraph');
+
+var output = SVGTimeGraph(
+    // List of data series
+    [
+        {
+            title: "Visits",
+            color: "#1d7fb3",
+            points: [
+                {
+                    value: 200,
+                    date: new Date(2015, 06, 10)
+                },
+                {
+                    value: 100,
+                    date: new Date(2015, 06, 11)
+                },
+                {
+                    value: 600,
+                    date: new Date(2015, 06, 13)
+                }
+            ]
+        }
+    ],
+
+    //
+    {
+        // Activate the auto-fill
+        autoFill: true,
+
+        // Value to use for missing data
+        // Default is 0
+        autoFillValue: 0,
+
+        // Interval of the time serie in ms
+        // Points that are not in the interval will be ignored
+        autoFillInterval: 1000 * 60 * 60 * 24,
+
+        // Other options...
+    }
+);
+```
